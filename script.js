@@ -58,7 +58,7 @@ function populateCityWeather(city, citySearchList) {
         var cityName = $("<h3>").text(weather.name);
         $("#city-name").prepend(cityName);
 
- //display weather image icons 
+ //display weather image icons, dispaly pulled weather data 
  var weatherIcon = $("<img>");
  weatherIcon.attr(
    "src",
